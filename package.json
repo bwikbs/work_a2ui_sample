@@ -1,0 +1,24 @@
+{
+  "name": "a2ui-sample-project",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@lit-labs/signals": "^0.1.3",
+    "@lit/context": "^1.1.4",
+    "lit": "^3.3.1",
+    "markdown-it": "^14.1.0",
+    "signal-utils": "^0.21.1"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^25.3.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.1.11"
+  }
+}
